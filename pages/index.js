@@ -3,8 +3,8 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import ThemeContextProvider from '../context/ThemeContext'
 
-export default function Home() {
+export default function Product() {
   return (
-          <h1>Home</h1>
+          <h1>ome</h1>
   )
 }

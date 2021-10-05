@@ -1,0 +1,43 @@
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+}
+.logo h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    color: #173A56;
+    margin: 10px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links * {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btns {
+    margin: 10px;
+}
+.btn {
+    color : #173A56;
+    background-color: transparent;
+}
+.frame {
+    cursor: pointer;
+}

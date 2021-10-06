@@ -1,5 +1,5 @@
 .container {
-    width: 90%;
+    width: 95%;
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -15,7 +15,7 @@
     font-size: 30px;
     line-height: 28px;
     color: #173A56;
-    margin: 10px;
+    margin: 15px;
 }
 .nav {
     display: flex;

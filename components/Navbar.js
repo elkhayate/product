@@ -3,8 +3,13 @@ import Image from 'next/image'
 import style from "../styles/Navbar.module.css"
 import logo from "../public/img/logo.png"
 import Frame from "../public/img/Frame.png"
-export default function Navbar() {
+import { ThemeContext } from '../context/ThemeContext'
 
+
+export default function Navbar() {
+    const {isLight, dark, light, toogler} = useContext(ThemeContext);
+    const theme = isLight ? light : dark
+    
     return (
         <div>
         <div className={style.container}>
@@ -23,7 +28,7 @@ export default function Navbar() {
                         <button className={style.btn}>Sign In</button>
                         <button>Sign Up</button>
                     </div>
-                    <Image className={style.frame} src={Frame} alt= "toogler" />
+                    <Image onClick={toogler} className={style.frame} src={Frame} alt= "toogler" />
                 </div>
         </div>
         </div>

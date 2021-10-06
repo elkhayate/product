@@ -18,7 +18,7 @@ export default function ThemeContextProvider(props) {
         setLight(!isLight);
     }
     return (
-        <ThemeContext.Provider value={{}}>
+        <ThemeContext.Provider value={{toogler, light : theme.light, dark : theme.dark, isLight }}>
             {props.children}
         </ThemeContext.Provider>
     )

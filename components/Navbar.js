@@ -1,4 +1,4 @@
-import React,{useContext, useState} from 'react'
+import React,{useContext} from 'react'
 import Image from 'next/image'
 import style from "../styles/Navbar.module.css"
 import logo from "../public/img/logo.png"
@@ -9,7 +9,6 @@ import Link from 'next/link'
 export default function Navbar() {
     const {isLight, dark, light, toogler} = useContext(ThemeContext);
     const theme = isLight ? light : dark
-    const [toog, setToog] = useState("bold")
     return (
         <div style={{backgroundColor : theme.bg, color : theme.syntax}}>
         <div  className={style.container}>

@@ -25,6 +25,7 @@
 .links * {
     margin-right: 25px;
     margin-left: 25px;
+    cursor: pointer;
 }
 .links {
     display: flex;
@@ -35,7 +36,6 @@
     margin: 10px;
 }
 .btn {
-    color : #173A56;
     background-color: transparent;
 }
 .frame {

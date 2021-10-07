@@ -8,6 +8,7 @@ import fb from "../public/img/facebook.png"
 import tw from "../public/img/twitter.png"
 import ist from "../public/img/instagram.png"
 import map from "../public/img/map.png"
+
 export default function Resources() {
     const {isLight, dark, light} = useContext(ThemeContext);
     const theme = isLight ? light : dark
@@ -46,9 +47,9 @@ export default function Resources() {
                 <Image  src = {map} alt = "map" /> 
                 <form style={{backgroundColor : isLight ? "white" : "#22343D"}} className={style.form}>
                     <h1>Send a message</h1>
-                    <input type="text" placeholder="Your Name" />
-                    <input type="email" placeholder="Your Email"/>
-                    <input style={{height : "193px", width : "768px", borderRadius : "0px"}} className={style.msg} type="text" placeholder="Your Message" />
+                    <input className={style.textt} type="text" placeholder="Your Name" />
+                    <input className={style.textt} type="email" placeholder="Your Email"/>
+                    <input className={style.message}  type="text" placeholder="Your Message" />
                     <button>Send</button>
                 </form>
             </div>

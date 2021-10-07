@@ -100,8 +100,7 @@
     margin-bottom: 50px;
 }
 .form {
-    width: 868px;
-    height: 670px;
+    width: 50%;
     margin: auto;
     background: #22343D;
     border: 1px solid #464646;
@@ -109,23 +108,68 @@
     border-radius: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 10px;
 }
-.form input {
-    width: 768px;
-    height: 54px;
+.message {
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    height: 173px;
+    width: 90%;
+
+}
+.textt {
+    width: 80%;
+    height: 50px;
     background: #F5F5F5;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     border-radius: 39px;
     margin: 15px;
 }
-.msg {
-    padding: 23px 20px;
-    background: #F5F5F5;
-    border: 1px solid #E8E8E8;
-    box-sizing: border-box;
-}
+
 .form button {
     margin-top: 20px;
     border-radius: 100px;
+}
+@media (max-width : 1200px) {
+    .business {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 25px;
+    }
+    .content {
+        width: 95%;
+        margin: auto;
+    }
+    .content h1{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .content p {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .socials {
+        width: 40%;
+    }
+    .form {
+        width: 100%;
+        height: 100%;
+    }
+    .message {
+        width: 90%;
+        padding: 0px 0px;
+    }
+    .textt {
+        width: 90%;
+    }
 }

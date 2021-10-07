@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+}
+.logo h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    color: #173A56;
+    margin: 15px;
+}
+.links * {
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.links {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+.btn {
+    background-color: transparent;
+}

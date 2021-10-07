@@ -1,0 +1,11 @@
+.mob {
+    display: none;
+}
+@media (max-width : 1200px) {
+    .brows {
+        display: none;
+    }
+    .mob {
+        display: inline;
+    }
+}

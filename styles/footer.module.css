@@ -27,7 +27,7 @@
 .socials  {
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 90%;
 }
 .sup input {
     display: block;
@@ -59,4 +59,8 @@
 .container button {
     margin: 0px;
     margin-top: 10px;
+}
+.grati {
+    text-align: center;
+    margin: 5px;
 }

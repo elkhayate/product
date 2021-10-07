@@ -44,7 +44,9 @@ export default function Footer() {
                         <input type ="email" />
                         <button>Sign up Now</button>
                 </div>
+                
             </div>
+            <p className={style.grati}>Made With Love By Elkhayate.</p>
         </div>
     )
 }

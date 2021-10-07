@@ -64,3 +64,29 @@
     text-align: center;
     margin: 5px;
 }
+@media (max-width : 1500px) {
+    .container {
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+    }
+}
+@media (max-width : 950px) {
+    .container {
+        display: block;
+        text-align: center;
+    }
+    .socials {
+        width: 40%;
+        margin: auto;
+    }
+    .sup {
+        text-align: center;
+    }
+    .sup h3 {
+        width: 100%;
+    }
+    .sup input {
+        margin: auto;
+    }
+}

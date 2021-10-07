@@ -1,0 +1,131 @@
+.container {
+    height: 100%;
+}
+.business {
+    width: 86.5%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+.content {
+    width: 50%;
+    align-self: flex-start;
+}
+.content h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 149%;
+    letter-spacing: -0.03em;
+    width: 60%;
+}
+.content p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: -0.03em;
+    width: 75%;
+}
+.content input {
+    width: 469.45px;
+    height: 66px;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    padding: 10px;
+}
+.content button {
+    margin-left: -120px;
+    height: 48px;
+    width: 110px;   
+    border-radius: 100px;
+}
+.story {
+    width: 348px;
+    height: 359px;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: block;
+    background-color: white;
+    margin: 15px;
+    text-align: start;
+}
+.title {
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.title p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+}
+.title h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343D;
+}
+.stories {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+.wahid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.contact {
+    text-align: center;
+    height: 100%;
+    padding: 50px;
+}
+.socials  {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.form {
+    width: 868px;
+    height: 670px;
+    margin: auto;
+    background: #22343D;
+    border: 1px solid #464646;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form input {
+    width: 768px;
+    height: 54px;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 39px;
+    margin: 15px;
+}
+.msg {
+    padding: 23px 20px;
+    background: #F5F5F5;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+}
+.form button {
+    margin-top: 20px;
+    border-radius: 100px;
+}

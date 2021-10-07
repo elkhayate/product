@@ -10,7 +10,7 @@ export default function ThemeContextProvider(props) {
     const [isLight, setLight] = useState(false);
     const [theme] = useState(
         {
-            light : {syntax : "#22343D", bg : "#E5E5E5"},
+            light : {syntax : "#22343D", bg : "white"},
             dark : {syntax : "white", bg : "#1f2e35"}
         }
     )

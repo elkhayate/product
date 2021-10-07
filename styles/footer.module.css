@@ -71,10 +71,11 @@
         justify-content: space-between;
     }
 }
-@media (max-width : 950px) {
+@media (max-width : 1200px) {
     .container {
         display: block;
         text-align: center;
+        width: 90%;
     }
     .socials {
         width: 40%;

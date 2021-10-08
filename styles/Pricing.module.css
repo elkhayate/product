@@ -1,0 +1,36 @@
+.container {
+    height: 100%;
+    padding: 10px;
+}
+.clients h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    
+}
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.products {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.variant {
+    width: 350px;
+    height: 305px;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+.variant h2

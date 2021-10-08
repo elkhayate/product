@@ -118,7 +118,12 @@
     margin: auto;
     height: 173px;
     width: 90%;
-
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    padding: 5px;
+    text-align: left;
 }
 .textt {
     width: 80%;
@@ -128,6 +133,11 @@
     box-sizing: border-box;
     border-radius: 39px;
     margin: 15px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    padding: 5px;
 }
 
 .form button {

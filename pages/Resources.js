@@ -12,7 +12,7 @@ import map from "../public/img/map.png"
 export default function Resources() {
     const {isLight, dark, light} = useContext(ThemeContext);
     const theme = isLight ? light : dark
-    var test = new Array(1,2,3,4,5,6,7,8);
+    var test = Array.apply(null, Array(8));
     return(
         <div style={{backgroundColor : theme.bg, color : theme.syntax}}>
             <div className={style.container}>

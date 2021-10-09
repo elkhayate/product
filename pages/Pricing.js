@@ -8,7 +8,7 @@ import c2 from "../public/img/circle2.png"
 import c3 from "../public/img/circle3.png"
 import minus from "../public/img/minus.png"
 import plus from "../public/img/plus.png"
-import frame from "../public/img/Frame2.png"
+
 
 
 export default function Pricing() {
@@ -114,7 +114,7 @@ export default function Pricing() {
                         <div className={style.composant}>
                             <div className={style.cont}>
                                 <Image src={c3} alt="Universities" />
-                                <h2>Universiities</h2>
+                                <h2>Universities</h2>
                             </div>
                             <p>Organize university projects and have documents easily graded online with Product</p>
                         </div>
@@ -127,33 +127,33 @@ export default function Pricing() {
                 <p>Something is not clear? You need help? Check our FAQ section</p>
             </div>
             <div className={style.questions}>
-                <div className={style.choice}>
-                    <div className={style.toggler}>
-                        <Image className={style.togg} onClick={() => {setShow1(!show1)}}  src={onORoff1}  alt = "dropDown"/>
+                <div style={{cursor : "pointer"}} className={style.choice}>
+                    <div onClick={() => {setShow1(!show1)}}  className={style.toggler}>
+                        <Image   src={onORoff1}  alt = "dropDown"/>
                         <h2>What are my payement option?</h2>
                     </div>
                     {show1 && <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>}
                     <hr />
                 </div>
-                <div className={style.choice}>
+                <div onClick={() => {setShow2(!show2)}} style={{cursor : "pointer"}} className={style.choice}>
                     <div className={style.toggler}>
-                        <Image className={style.togg} onClick={() => {setShow2(!show2)}}  src={onORoff2}  alt = "dropDown"/>
+                        <Image   src={onORoff2}  alt = "dropDown"/>
                         <h2>How can i invite collaborator to platform?</h2>
                     </div>
                     {show2 && <p>After creating your account you will have an oppurtunity to create your first project that will be associated withthe collaborators e-mail. An invitation  will be sent automatically. Then, invited user will have to confirm his account by e-mail and finish userd onboarding.</p>}
                     <hr />
                 </div>
-                <div className={style.choice}>
+                <div onClick={() => {setShow3(!show3)}} style={{cursor : "pointer"}} className={style.choice}>
                     <div className={style.toggler}>
-                        <Image className={style.togg} onClick={() => {setShow3(!show3)}}  src={onORoff3}  alt = "dropDown"/>
+                        <Image    src={onORoff3}  alt = "dropDown"/>
                         <h2>Can I upgrade my plan?</h2>
                     </div>
                     {show3 && <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>}
                     <hr/>
                 </div>
-                <div className={style.choice}>
-                    <div className={style.toggler}>
-                        <Image className={style.togg} onClick={() => {setShow4(!show4)}}  src={onORoff4}  alt = "dropDown"/>
+                <div style={{cursor : "pointer"}} className={style.choice}>
+                    <div className={style.toggler} onClick={() => {setShow4(!show4)}}>
+                        <Image   src={onORoff4}  alt = "dropDown"/>
                         <h2>Can I cancel my plan at anytime?</h2>
                     </div>
                     {show4 && <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>}

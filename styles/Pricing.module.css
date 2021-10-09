@@ -14,9 +14,10 @@
     justify-content: center;
     align-items: center;
     height: 450px;
+    margin: 10px;
 }
 .prices {
-    width: 70%;
+    width: 97%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -162,6 +163,51 @@
 .toggler h2 {
     margin-left: 10px;
 }
-.togg {
-    cursor : pointer;
+@media (max-width : 1800px) {
+    .cont {
+        width: 55%;
+    }
+    .composant p {
+        width: 100%;
+    }
+}
+@media (max-width:1400px) {
+    .cont {
+        width: 65%;
+    }
+}
+@media (max-width:1300px){
+    .cont {
+        width: 85%;
+    }
+    .questions {
+        width: 90%;
+    }
+}
+@media (max-width:1100px) {
+    .product {
+        display: block;
+    }
+    .composants {
+        width: 100%;
+    }
+    .composant {
+        width: 90%;
+    }
+    .cont {
+        width: 50%;
+    }
+    .composant p {
+        width: 100%;
+    }
+}
+@media (max-width : 800px) {
+    .cont {
+        width: 70%;
+    }
+}
+@media (max-width : 600px) {
+    .cont {
+        width: 90%;
+    }
 }

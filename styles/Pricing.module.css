@@ -96,6 +96,9 @@
     text-align: center;
     padding: 30px;
 }
+.cont h2 {
+    margin-left: 5px;
+}
 .product {
     width: 70%;
     margin: auto;
@@ -136,8 +139,29 @@
     font-size: 34px;
     line-height: 51px;
 }
+.questions {
+    width: 55%;
+    margin: auto;
+    margin-bottom: 50px;
+}
 .question p {
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
+}
+.question h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+.toggler {
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+.toggler h2 {
+    margin-left: 10px;
+}
+.togg {
+    cursor : pointer;
 }

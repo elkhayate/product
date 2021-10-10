@@ -30,7 +30,7 @@ export default function Resources() {
                 </div>
             <div className={style.stories}>
                     <h1>Lastest Stories</h1>
-                    <p>We focus on ergonomics and meeting you where you work. it's only a keystroke away.</p>
+                    <p>We focus on ergonomics and meeting you where you work. it&apos;s only a keystroke away.</p>
                     <div className={style.wahid}>
                         {test.map(p => <Story key = {p} />)}
                     </div>

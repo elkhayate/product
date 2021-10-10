@@ -40,7 +40,7 @@ export default function Footer() {
                         <p>Terms of Service</p>
                 </div>
                 <div className={style.sup}>
-                        <h3>Knowing you're always on the best energy deal.</h3>
+                        <h3>Knowing you&apos;re always on the best energy deal.</h3>
                         <input type ="email" />
                         <button>Sign up Now</button>
                 </div>

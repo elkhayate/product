@@ -27,7 +27,7 @@ export default function Pricing() {
         <div style={{backgroundColor : theme.bg, color : theme.syntax, padding:"20px"}}>
             <div className={style.pricing}>
                     <h2>PRICING</h2>
-                    <h1>Let's get some real work done here.</h1>
+                    <h1>Let&apos;s get some real work done here.</h1>
                     <p>Prodict is your perfect solution for working. Get started now for free</p>
                     <div className={style.prices}>
                         <div className={style.card}>

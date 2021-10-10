@@ -12,7 +12,7 @@ import map from "../public/img/map.png"
 export default function Resources() {
     const {isLight, dark, light} = useContext(ThemeContext);
     const theme = isLight ? light : dark
-    var test = Array.apply(null, Array(8));
+    var test = [1,2,3,4,5,6,7,8];
     return(
         <div style={{backgroundColor : theme.bg, color : theme.syntax}}>
             <div className={style.container}>
@@ -32,7 +32,7 @@ export default function Resources() {
                     <h1>Lastest Stories</h1>
                     <p>We focus on ergonomics and meeting you where you work. it's only a keystroke away.</p>
                     <div className={style.wahid}>
-                        {test.map(p => <Story />)}
+                        {test.map(p => <Story key = {p} />)}
                     </div>
             </div>
             <div className={style.contact}>

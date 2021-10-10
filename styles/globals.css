@@ -13,13 +13,13 @@ button {
   font-size: 16px;
   line-height: 24px;
   cursor: pointer;
-  border: 1px solid #BCD0E5;
   box-sizing: border-box;
   border-radius: 4px;
   margin: 5px;
   width: 175px;
   height: 53px;
   font-weight: bold;
+  border: 0px;
 }
 a {
   color: inherit;

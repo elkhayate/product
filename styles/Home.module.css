@@ -69,3 +69,67 @@
   justify-content: center;
   margin: auto;
 }
+@media (max-width : 1200px) {
+  .speed {
+    display: block;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .content {
+    width: 90%;
+    margin: auto;
+  }
+  .content h1 {
+    width: 60%;
+    margin: auto;
+  }
+  .content p {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .content button {
+    margin: 30px;
+  }
+  .persons {
+    width: 100%;
+  }
+  .person {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .person1 {
+    display: block;
+    justify-content: space-around;
+  }
+}
+@media (max-width : 1800px) {
+  .persons {
+    width: 90%;
+  }
+}
+@media (max-width : 1100px) {
+  .person {
+    width: 50%;
+  }
+  .quick p {
+    width: 95%;
+  }
+  .pcontent{
+    width: 80%;
+    margin: 10px;
+  }
+}
+@media (max-width : 900px) {
+  .person {
+    width: 65%;
+  }
+}
+@media (max-width : 700px) {
+  .person {
+    width: 85%;
+  }
+}

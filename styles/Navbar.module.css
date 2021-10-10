@@ -37,6 +37,7 @@
 }
 .btn {
     background-color: transparent;
+    border: 1px solid #BCD0E5;
 }
 .frame {
     cursor: pointer;

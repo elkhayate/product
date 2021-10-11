@@ -13,7 +13,7 @@ export default function Home() {
   const {isLight, light, dark} = useContext(ThemeContext);
   const theme = isLight ? light : dark;
   return (
-          <div style={{backgroundColor : theme.bg, color : theme.syntax, padding : "20px"}}>
+          <div className={style.contain} style={{backgroundColor : theme.bg, color : theme.syntax, padding : "20px"}}>
               <div className={style.speed}>
                   <div className={style.content}>
                       <h1>Work at the speed of thought</h1>

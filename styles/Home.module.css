@@ -15,6 +15,7 @@
   font-size: 32px;
   line-height: 48px;
 }
+
 .title {
   width: 40%;
   margin: auto;
@@ -131,5 +132,42 @@
 @media (max-width : 700px) {
   .person {
     width: 85%;
+  }
+}
+@media (max-width : 500px) {
+  .speed {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .content h1 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 60px;
+  }
+  .content p {
+    width: 100%;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .quick {
+    width: 100%;
+  }
+  .quick h1 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 48px;
+  }
+  .quick p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .person {
+    width: 100%;
   }
 }

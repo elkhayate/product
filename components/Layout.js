@@ -6,7 +6,7 @@ import style from "../styles/layout.module.css";
 
 export default function Layout ({children}) {
     return( 
-        <div>
+        <div className={style.layout}>
             <div className={style.brows}><Navbar /></div>
             <div className={style.mob}><Navmob /></div>
             {children}

@@ -187,3 +187,43 @@
         width: 90%;
     }
 }
+@media (max-width : 500px) {
+    .content {
+        width: 100%;
+
+    }
+    .content h1 {
+        width: 100%;
+        font-size: 29px;
+    }
+    .content input {
+        width: 95%;
+
+    }
+    .content button {
+        margin-left: -120px;
+        height: 48px;
+        width: 110px;   
+        border-radius: 100px;
+    }
+    .socials  {
+        width: 60%;
+    }
+    .contact {
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .form {
+        width: 100%;
+        margin: auto;
+        background: #22343D;
+        border: 1px solid #464646;
+        box-sizing: border-box;
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 0px;
+    }
+}

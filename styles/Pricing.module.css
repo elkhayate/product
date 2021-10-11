@@ -210,4 +210,20 @@
     .cont {
         width: 90%;
     }
+    .title {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .product {
+        width: 100%;
+    }
+    .composant p {
+        width: 100%;
+    }
+    .question h1 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 48px;
+    }
 }
